@@ -9,7 +9,7 @@ Setup :
 - To run commands (here npm and artisan commands) use : "docker-compose run --rm <related-command>"
 
 - command to install laravel in "/src" : "docker-compose run --rm composer create-project laravel/laravel ."
-- change laravel storage folder permissions while development(linux/ubuntu preferred) : "sudo chown -R 777"
+- change laravel storage folder permissions while development(linux/ubuntu preferred) : "sudo chmod -R 777"
 - setup mySql service data from docker-compose.yml in laravel .env file
 - use "sudo service mysql stop" while error in "docker-compose up -d" in linux/ubuntu
 
